@@ -442,11 +442,11 @@ function destroyNamespace(name) {
 
   namespace._hook.disable();
 
-  /**
-   * Zerofying _contexts as haviest part of Namespace
-   * in case our namespace is retained mistakenly, so
-   * we releasing heavist part at least
-   */
+  /*
+  * Zeroing _contexts as heaviest part of Namespace
+  * In case our namespace is retained mistakenly, so
+  * at least we are releasing heaviest part
+  */
   namespace._contexts = null;
 
   process.namespaces[name] = null;
