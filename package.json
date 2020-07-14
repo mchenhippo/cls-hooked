@@ -1,6 +1,6 @@
 {
   "name": "@hippo/cls-hooked",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "CLS using AsyncWrap instead of async-listener - Node >= 4.7.0",
   "main": "index.js",
   "files": [
@@ -9,7 +9,7 @@
     "context-legacy.js"
   ],
   "scripts": {
-    "test": "mocha test/*.js & tap test/tap/*.tap.js",
+    "test": "mocha test/*.js & tap test/tap/bind.tap.js",
     "test-mocha": "mocha test/*.js",
     "test-tap": "tap test/tap/*.tap.js",
     "lint": "",
