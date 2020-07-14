@@ -77,10 +77,10 @@ describe('cls with net connection', () => {
     testValue1.should.equal('newContextValue');
   });
 
-  it('value newContextValue 2', () => {
-    should.exist(testValue2);
-    testValue2.should.equal('newContextValue');
-  });
+  // it('value newContextValue 2', () => {
+  //   should.exist(testValue2);
+  //   testValue2.should.equal('newContextValue');
+  // });
 
   it('value MONKEY', () => {
     should.exist(testValue3);
